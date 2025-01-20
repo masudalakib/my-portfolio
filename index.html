@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#game">Game</a></li>
+            </ul>Profile
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero">
+            <div class="content-wrapper">
+                <div class="magic-3d">
+                    <div class="ring-container">
+                        <div class="ring outer">
+                            <span style="--i:1;"></span>
+                            <span style="--i:2;"></span>
+                            <span style="--i:3;"></span>
+                            <span style="--i:4;"></span>
+                            <span style="--i:5;"></span>
+                            <span style="--i:6;"></span>
+                            <span style="--i:7;"></span>
+                            <span style="--i:8;"></span>
+                        </div>
+                        <div class="ring middle">
+                            <span style="--i:1;"></span>
+                            <span style="--i:2;"></span>
+                            <span style="--i:3;"></span>
+                            <span style="--i:4;"></span>
+                            <span style="--i:5;"></span>
+                            <span style="--i:6;"></span>
+                        </div>
+                        <div class="ring inner">
+                            <span style="--i:1;"></span>
+                            <span style="--i:2;"></span>
+                            <span style="--i:3;"></span>
+                            <span style="--i:4;"></span>
+                        </div>
+                        <div class="sphere"></div>
+                    </div>
+                </div>
+                <h1>Welcome to My Portfolio</h1>
+                <p>I'm a <span class="typed-text"></span></p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="wish-display">
+                <div class="wish-text">Congratulations!</div>
+                <div class="wish-flower">
+                    <div class="stem"></div>
+                    <div class="center-flower">
+                        <div class="center"></div>
+                        <div class="petals">
+                            <div class="petal p1"></div>
+                            <div class="petal p2"></div>
+                            <div class="petal p3"></div>
+                            <div class="petal p4"></div>
+                            <div class="petal p5"></div>
+                            <div class="petal p6"></div>
+                            <div class="petal p7"></div>
+                            <div class="petal p8"></div>
+                        </div>
+                    </div>
+                    <div class="leaves">
+                        <div class="leaf l1"></div>
+                        <div class="leaf l2"></div>
+                    </div>
+                </div>
+                <div class="sparkles"></div>
+            </div>
+        </div>
+        <div id="particles-js"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Hello! I'm a passionate developer with expertise in creating beautiful and functional websites. I love turning ideas into reality through code.</p>
+                <div class="skills">
+                    <h3>My Skills</h3>
+                    <div class="skill-bars">
+                        <div class="skill">
+                            <span>HTML/CSS</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>JavaScript</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>React</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="/dance.gif" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card" data-tilt>
+                <img src="/c.gif" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>A brief description of the project goes here.</p>
+                <div class="project-links">
+                    <a href="#" class="btn">Live Demo</a>
+                    <a href="#" class="btn">GitHub</a>
+                </div>
+            </div>
+            <div class="project-card" data-tilt>
+                <img src="/bird.gif" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>A brief description of the project goes here.</p>
+                <div class="project-links">
+                    <a href="#" class="btn">Live Demo</a>
+                    <a href="#" class="btn">GitHub</a>
+                </div>
+            </div>
+            <div class="project-card" data-tilt>
+                <img src="/r.gif" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>A brief description of the project goes here.</p>
+                <div class="project-links">
+                    <a href="#" class="btn">Live Demo</a>
+                    <a href="#" class="btn">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tic Tac Toe Section -->
+    <section id="game">
+        <div class="game-wrapper">
+            <h2>Let's Play Tic Tac Toe!</h2>
+            <div class="game-container">
+                <div class="game-modes">
+                    <button class="mode-btn active" data-mode="pvp">Player vs Player</button>
+                    <button class="mode-btn" data-mode="computer">vs Computer</button>
+                </div>
+                <div class="player-setup">
+                    <div class="player-input">
+                        <label for="player1">Player 1</label>
+                        <div class="input-container">
+                            <input type="text" id="player1" placeholder="Enter name" value="Player 1">
+                            <div class="symbol-badge x-symbol">(X)</div>
+                        </div>
+                    </div>
+                    <div class="player-input">
+                        <label for="player2">Player 2</label>
+                        <div class="input-container">
+                            <input type="text" id="player2" placeholder="Enter name" value="Player 2">
+                            <div class="symbol-badge o-symbol">(O)</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scoreboard">
+                    <div class="score player1-score">
+                        <span class="name">Player 1:</span>
+                        <span class="points">0</span>
+                    </div>
+                    <div class="score ties">
+                        <span class="name">Ties:</span>
+                        <span class="points">0</span>
+                    </div>
+                    <div class="score player2-score">
+                        <span class="name">Player 2:</span>
+                        <span class="points">0</span>
+                    </div>
+                </div>
+                <div class="game-status">Player X's turn</div>
+                <div class="board">
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                </div>
+                <div class="game-controls">
+                    <button id="restartButton">
+                        <span>Restart Game</span>
+                        <div class="button-effect"></div>
+                    </button>
+                    <button id="resetScoreButton">
+                        <span>Reset Score</span>
+                        <div class="button-effect"></div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Contact Me</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required>
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Your Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            
+            <!-- Social Media Icons -->
+            <div class="social-icons">
+                <a href="https://www.facebook.com/masudalakib0/" class="social-icon facebook" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://github.com/masudalakib" class="social-icon github" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/masudalakib/" class="social-icon linkedin" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
