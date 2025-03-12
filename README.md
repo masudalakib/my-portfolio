@@ -1,3 +1,3 @@
 ﻿# my-portfolio
- Try the web version of the app here:
+ LIVE:
 https://masudalakib.github.io/my-portfolio/
