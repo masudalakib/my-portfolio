@@ -12,7 +12,7 @@ particlesJS("particles-js", {
             color: "#ffffff",
             opacity: 0.4,
             width: 1
-        },
+        }, 
         move: {
             enable: true,
             speed: 6,
